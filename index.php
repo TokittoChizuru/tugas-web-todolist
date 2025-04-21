@@ -302,7 +302,7 @@ if (isset($_SESSION['id_user'])) {
             <div class="columns is-centered">
                 <div class="column is-8">
                     <div class="screenshot-card">
-                        <img src="/assets/img/gambar1.png" alt="Tampilan Dashboard HariHebatKu" class="illustration">
+                        <img src="assets/img/gambar1.png" alt="Tampilan Dashboard HariHebatKu" class="illustration">
                     </div>
                 </div>
             </div>
@@ -310,12 +310,12 @@ if (isset($_SESSION['id_user'])) {
             <div class="columns mt-5">
                 <div class="column is-4">
                     <div class="screenshot-card">
-                        <img src="/assets/img/gambar2.png" alt="Tambah Tugas" class="illustration">
+                        <img src="assets/img/gambar2.png" alt="Tambah Tugas" class="illustration">
                     </div>
                 </div>
                 <div class="column is-4">
                     <div class="screenshot-card">
-                        <img src="/assets/img/gambar3.png" alt="Profil Pengguna" class="illustration">
+                        <img src="assets/img/gambar3.png" alt="Profil Pengguna" class="illustration">
                     </div>
                 </div>
             </div>
@@ -334,22 +334,22 @@ if (isset($_SESSION['id_user'])) {
                 <div class="column is-4">
                     <div class="testimonial-card">
                         <div class="has-text-centered mb-4">
-                            <img src="https://randomuser.me/api/portraits/boys/12.jpg" alt="Testimoni 1" class="testimonial-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Testimoni 1" class="testimonial-avatar">
                         </div>
                         <p class="mb-4">"Sejak pakai HariHebatKu, aku nggak pernah lupa tugas sekolah lagi! Aplikasinya mudah banget dipakai."</p>
-                        <p class="has-text-weight-bold">Rafi, 10 tahun</p>
-                        <p class="has-text-grey">Siswa SD</p>
+                        <p class="has-text-weight-bold">Rafi, 21 tahun</p>
+                        <p class="has-text-grey">Mahasiswa</p>
                     </div>
                 </div>
                 
                 <div class="column is-4">
                     <div class="testimonial-card">
                         <div class="has-text-centered mb-4">
-                            <img src="https://randomuser.me/api/portraits/girls/12.jpg" alt="Testimoni 2" class="testimonial-avatar">
+                            <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="Testimoni 2" class="testimonial-avatar">
                         </div>
                         <p class="mb-4">"Aku suka banget sama fitur reminder-nya. Sekarang PR selalu selesai tepat waktu!"</p>
-                        <p class="has-text-weight-bold">Siti, 12 tahun</p>
-                        <p class="has-text-grey">Siswa SMP</p>
+                        <p class="has-text-weight-bold">Siti, 16 tahun</p>
+                        <p class="has-text-grey">Siswa SMA</p>
                     </div>
                 </div>
                 
@@ -422,7 +422,7 @@ if (isset($_SESSION['id_user'])) {
                 </div>
             </div>
             <div class="has-text-centered mt-5">
-                <p>&copy; 2023 RizDev. All rights reserved.</p>
+                <p>&copy; 2025 RizDev. All rights reserved.</p>
             </div>
         </div>
     </footer>
