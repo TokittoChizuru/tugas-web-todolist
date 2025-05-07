@@ -28,6 +28,7 @@ function login($email, $password) {
             // Simpan data pengguna ke sesi
             $_SESSION['id_user'] = $user['id_user'];
             $_SESSION['nama'] = $user['nama'];
+            $_SESSION['username'] = $user['username'];
 
             return true; // Login berhasil
         } else {
@@ -39,11 +40,12 @@ function login($email, $password) {
 }
 
 // Fungsi untuk registrasi pengguna
-function register($nama, $email, $password) {
+function register($nama, $username, $email, $password) {
     global $koneksi;
 
     // Cegah SQL Injection
     $nama = mysqli_real_escape_string($koneksi, $nama);
+    $username = mysqli_real_escape_string($koneksi, $username);
     $email = mysqli_real_escape_string($koneksi, $email);
     $password = mysqli_real_escape_string($koneksi, $password);
 
@@ -59,7 +61,7 @@ function register($nama, $email, $password) {
     $hashed_password = password_hash($password, PASSWORD_BCRYPT);
 
     // Query untuk menambahkan pengguna baru
-    $query = "INSERT INTO users (nama, email, password) VALUES ('$nama', '$email', '$hashed_password')";
+    $query = "INSERT INTO users (nama, username, email, password) VALUES ('$nama', '$username', '$email', '$hashed_password')";
     $result = mysqli_query($koneksi, $query);
 
     return $result; // True jika berhasil, false jika gagal

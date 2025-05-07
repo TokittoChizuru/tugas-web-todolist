@@ -1,8 +1,8 @@
 <?php
 // Konfigurasi database
-$host = "localhost";
+$host = "0.0.0.0:3306";
 $user = "root";
-$password = "";
+$password = "root";
 $database = "harihebatku";
 
 // Membuat koneksi ke database
