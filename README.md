@@ -6,9 +6,10 @@ To-Do List adalah aplikasi manajemen tugas berbasis web yang memungkinkan penggu
 ---
 ## Kelompok 2 
 **Anggota:**
-1. Nur Kholivah(4123009)
-2. Muhammad Genio Brillian(4123009)
-3. Dio Ananda Maulana Wijaya(4123031)
+1. Muhammad Bangkit Sanjaya
+2. Meisya Wulandari Nasution
+3. M. Rayhan Kamil
+
 
 ---
 
@@ -95,7 +96,7 @@ project_root/
      $host = 'localhost';
      $user = 'root';
      $password = '';
-     $database = 'todo_list';
+     $database = 'HariHebatku';
      ```
 
 3. **Konfigurasi Server Lokal:**
